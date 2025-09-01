@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Glosario Galax-IA</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 40px; }
+        h1 { color: #1a1a1a; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        h2 { color: #333366; margin-top: 40px; }
+        h3 { color: #666666; margin-top: 20px; }
+        p { line-height: 1.6; }
+    </style>
+</head>
+<body>
+<h2>Brand Distribution</h2>
+<p>Definición:</p>
+<p>El cálculo de brand distribution debe explicarse correctamente:
+Se obtiene sumando todas las referencias (SKU) compradas por los clientes. Ejemplo: si 300 clientes compraron Stella litro y 200 clientes compraron Stella lata (pueden ser los mismos clientes o diferentes), el brand distribution de Stella es 500.
+Para un portafolio (ejemplo: cervezas en general), se suman todas las referencias compradas en ese mes por toda la cartera de clientes (ej: 300 compradores de Quilmes lata + 200 de Quilmes litro + 400 de Brahma lata + 400 de Brahma litro + 200 de Corona 330cc = brand distribution total 1500).
+El cálculo de total distribution sigue la misma lógica que brand distribution, pero en lugar de aplicar a una marca o segmento de marcas, se refiere a toda la categoría (por ejemplo, cervezas o gaseosas/UNG). Se suman todas las referencias de esa categoría que fueron compradas por los clientes.
+[Conceptos]
+El asistente también debe explicar los siguientes conceptos:</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>300 clientes compraron Stella litro y 200 Stella lata → Brand Distribution = 500</p>
+<p>Alias y palabras clave:</p>
+<p>distribución por SKU, distribución total de marca</p>
+<h2>SOM</h2>
+<p>Definición:</p>
+<p>Participación del volumen de una marca, segmento o empresa sobre el total del mercado.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>(No aplica)</p>
+<p>Alias y palabras clave:</p>
+<p>Share of Market, participación de mercado</p>
+<h2>SOS</h2>
+<p>Definición:</p>
+<p>Participación de una marca o calibre dentro de un segmento específico (ej: share de quilmes en cervezas rubias, share de brahma en cervezas en lata, share de stella en cervezas premium).</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>(No aplica)</p>
+<p>Alias y palabras clave:</p>
+<p>Share of Segment, participación del segmento</p>
+<h2>CCC</h2>
+<p>Definición:</p>
+<p>Número absoluto de clientes compradores de una categoría, marca, calibre o sabor.
+La forma de calcular los clientes compradores depende de las fuentes de datos, y eso es distinto para cada canal:
+- Directas: se considera comprador todo cliente con una venta mayor a cero; si tuvo volumen positivo, cuenta como comprador.
+- Distribuidores: el cliente es comprador si adquiere al menos 6 unidades del mismo SKU en el mismo acto de compra (por ejemplo, un six-pack de latas). Hay excepciones cuando el producto viene en presentación menor (ej.: pack x4 como Red Bull), en cuyo caso el sistema reconoce como comprador si se adquiere un “paquete cerrado” en una misma operación.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>Si un distribuidor vendió 10 packs de Andes y 5 de Stella a 100 clientes, entonces CCC = 100</p>
+<p>Alias y palabras clave:</p>
+<p>clientes con compra, clientes activos</p>
+<h2>Cobertura</h2>
+<p>Definición:</p>
+<p>Clientes con compra de un producto, marca o segmento dividido la cantidad total de clientes compradores. Se expresa en porcentaje y nunca puede ser mayor a 100%.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>Si 300 clientes compraron Andes entre 600 que compraron cerveza → cobertura = 50%</p>
+<p>Alias y palabras clave:</p>
+<p>cobertura de clientes, cobertura de compra</p>
+<h2>Distribución física</h2>
+<p>Definición:</p>
+<p>En cuántos clientes de la muestra o censo está presente una determinada marca o producto (fuentes: censo Thomas o informe de share de Scentia). Se expresa en porcentaje y nunca puede ser mayor a 100%.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>Si 400 de 1000 puntos tienen Brahma → distribución física = 40%</p>
+<p>Alias y palabras clave:</p>
+<p>presencia de marca, distribución censo</p>
+<h2>Distribución ponderada</h2>
+<p>Definición:</p>
+<p>En cuántos de los clientes que representan el 80% del volumen del mercado estamos presentes; busca mostrar si se está en los clientes más volumétricos. Se expresa en porcentaje y suele ser mayor a la distribución física por definición. Nunca puede ser mayor a 100%.
+Ejemplos: el mercado tiene 1000 clientes y 800 tienen nuestros productos, tenemos 80% de distribución física. De los 1000 clientes del mercado hay 100 que hacen el 80% del volumen de todo el mercado, y de esos 100 clientes estamos en 95, tenemos 95% de distribución ponderada.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>Clientes que concentran el 80% del volumen tienen Stella → distribución ponderada alta</p>
+<p>Alias y palabras clave:</p>
+<p>distribución valorada, weighted distribution</p>
+<h2>Retiros y Venta Real</h2>
+<p>Definición:</p>
+<p>Retiros hace referencia al volumen que el distribuidor retira desde un centro de despacho, depósito o planta de la compañía.
+Venta real es el volumen que el distribuidor vende a sus clientes. Cada distribuidor tiene una zona asignada y solo puede vender a clientes de su zona. La venta real se puede descargar de un sistema llamado “Dplus”, sección “Datawarehouse Integrado”
+En distribuidores, si el distribuidor retira más de lo que vende, está subiendo stock; si retira menos de lo que vende, está bajando stock.
+En “directas” y “supermercados”, el retiro es igual a la venta real, ya que es difícil o poco confiable tener información del sell-out de los clientes.
+[Fuentes de datos de share]</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>Distribuidor retira 1000L pero vende 800L → Venta Real = 800L</p>
+<p>Alias y palabras clave:</p>
+<p>volumen retirado vs vendido, sell-in vs sell-out</p>
+<h2>Clean Room</h2>
+<p>Definición:</p>
+<p>Es una cámara tercerizada e imparcial donde tanto CMQ como la competencia informan su volumen de retiros, y la cámara calcula cuánto es el SOM que tiene cada empresa.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>(No aplica)</p>
+<p>Alias y palabras clave:</p>
+<p>Share Clean Room, data imparcial de mercado</p>
+<h2>Censo Thomas</h2>
+<p>Definición:</p>
+<p>Es un censo interno que se hace dos veces al año. Es un censo porque se releva el volumen de venta (sell-out) de todos los comercios de la cartera de clientes. Se censa a través de los promotores de venta, que cargan los datos en una aplicación y que luego tiene que ser revisada por los supervisores a modo de corregir inconsistencias. En el manual de distribuidores da más detalles de la operatoria.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>(No aplica)</p>
+<p>Alias y palabras clave:</p>
+<p>relevamiento sell-out, censo de cartera total</p>
+<h2>Scentia</h2>
+<p>Definición:</p>
+<p>Es una consultora que utiliza la facturación de línea de caja (tickets emitidos) de un determinado grupo de clientes de su base, tiene clientes en todas las regiones y canales de venta del país. Es un MUESTREO, no es un censo, la granularidad de la información depende del canal de ventas:
+En directas llega hasta nivel operación de venta directa.
+En distribuidores llega hasta nivel sub-región
+En supermercados llega hasta nivel cadena y bandera.
+Avance de ventas
+BGT y Objetivo comercial</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>(No aplica)</p>
+<p>Alias y palabras clave:</p>
+<p>consultora externa, tickets de venta, auditoría de muestra</p>
+<h2>PTR</h2>
+<p>Definición:</p>
+<p>Además, debe poder detallar el concepto de PTR (Price to Retail):
+El PTR es el precio que paga el comercio por la mercadería.
+Se parte del Precio de Lista o del PNIT (Precio Neto Inicial al Trade).
+Si no existen descuentos comerciales, se toma el PNIT, en cambio, si hay descuentos comerciales, se tiene que aplicar el descuento al PNIT, resultando un “PNIT Ajustado” o “PNIT descontado”. Ejemplo, un cliente tiene una acción comercial de 10% y una negociación de 5%, entonces PNIT descontado = PNIT * (1 - 0,15).
+Luego, resta aplicar todos los impuestos, recordemos que la lógica de un impuesto es: impuesto = base imponible * alícuota.
+IVA = 21% * PNIT descontado, la base imponible es el PNIT descontado. Aplica casi siempre, hay muy pocos clientes exentos de IVA.
+Impuesto interno (II): Depende del producto o la categoría, cervezas tienen 16,3%, cerveza sin alcohol y vino no tienen impuesto interno, pepsi y 7up tienen distintas alícuotas. La alícuota que tiene cada producto se puede consultar en la lista de precios accesoria. El cálculo es impuesto interno = PNIT descontado * alícuota.
+Ingresos brutos (IIBB): La alícuota depende de la condición fiscal del cliente, luego el cálculo es IIBB = (PNIT descontado + impuesto interno) * alícuota
+Adicionalmente, puede corresponder una percepción de IVA si la factura supera un monto determinado, el cual se actualiza periódicamente.
+El cliente puede ver el precio final correcto en el carrito de la app BEES.
+Repasando la parte de impuestos, IVA lo pagan prácticamente todos, impuesto interno depende del producto, ingresos brutos depende del cliente.
+Si se hace un envío de mercadería sin cargo, este se puede considerar como un descuento comercial equivalente. Ejemplo: en una acción 9+1 (9 bultos facturados a precio full y 1 bulto sin cargo), el descuento equivale a 1 / (9+1) = 10%.</p>
+<p>Cálculo:</p>
+<p>PNIT descontado + Impuestos (II + IVA + IIBB + percepción IVA si aplica)</p>
+<p>Ejemplo:</p>
+<p>Si PNIT descontado = $100 → PTR = $100 + impuestos</p>
+<p>Alias y palabras clave:</p>
+<p>Price to Retail, precio neto de venta al punto de venta</p>
+<h2>PTC</h2>
+<p>Definición:</p>
+<p>Finalmente, debe explicar el PTC (Price to Consumer):
+Una vez definido el PTR, el punto de venta le agrega su mark-up o ganancia.
+El resultado de PTR + mark-up = PTC, que es el precio que paga el consumidor final.
+[Cálculo de PTR]
+PNIT descontado = PNIT – descuentos comerciales/promocionales.
+IVA (21%): aplicar solo sobre el PNIT descontado.
+Impuesto Interno (II): aplicar sobre el PNIT descontado, según la alícuota de la categoría.
+Ingresos Brutos (IIBB): aplicar sobre (PNIT descontado + II).
+Percepción de IVA: sumar únicamente si corresponde según normativa vigente.
+PTR final = PNIT descontado + II + IVA + IIBB (+ percepción de IVA si aplica).
+Ejemplo de orden de cálculo:
+PNIT descontado + II (sobre PNIT descontado) + IVA (sobre PNIT descontado) + IIBB (sobre PNIT descontado + II) = PTR</p>
+<p>Cálculo:</p>
+<p>PTR + Markup del punto de venta</p>
+<p>Ejemplo:</p>
+<p>PTR = $120, markup = 30% → PTC = $156</p>
+<p>Alias y palabras clave:</p>
+<p>Price to Consumer, precio consumidor final</p>
+<h2>Programa Galaxia</h2>
+<p>Definición:</p>
+<p>También debe diferenciar entre los tipos de ligas dentro del programa Galaxia:
+Ligas de distribuidores: Liga de Honor, Serie A, y Serie B. Tienen ascensos y descensos, sirven para ordenar el programa y para diferenciar a los distribuidores referentes de la red de aquellos con más oportunidades.
+Cuando el usuario consulte por el “Taco de medios” o el “Taco de resultados”, el asistente debe aclarar siempre a qué canal o manual se refiere, ya que no todos tienen los mismos indicadores. También debe sugerir revisar los tableros en Power BI o los seguimientos enviados por el Equipo Galaxia por si hubo actualizaciones en los indicadores, la forma de medición o los objetivos.
+Hay indicadores del TACO de medios que tienen objetivos anualizados y otros que tienen objetivos que se van comunicando mes a mes, según como varíen las necesidades del negocio.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>Un distribuidor asciende de Serie B a A si mejora sus KPIs</p>
+<p>Alias y palabras clave:</p>
+<p>Ligas de distribuidores, programa de competitividad</p>
+<h2>Premios del programa</h2>
+<p>Definición:</p>
+<p>El programa premia el mejor desempeño de los equipos de venta, y cada canal tiene su premio.
+[Premios en Manual Distribuidores]
+Liga de Honor: Galáctico de oro (1º lugar), Galáctico de plata (2º lugar), Galáctico de bronce (3º lugar).
+Los 8 mejores de la liga de honor reciben además la distinción especial de “Estrella”.
+Serie A: Scudetto de oro (1º lugar), Scudetto de plata (2º lugar).
+Serie B: Scudetto de bronce (1º lugar).
+[Premios en Manual Gestión interna (ejecutivos de venta)]
+Galáctico de oro (1º lugar)
+Galáctico de plata (2º lugar)
+Galáctico de bronce (3º lugar).
+[Premios en Manual Directas]
+Galáctico de oro (1º lugar)
+Galáctico de plata (2º lugar)
+Galáctico de bronce (3º lugar).
+[Premios en Manual Supermercados]
+Galáctico de oro (1º lugar)
+Galáctico de plata (2º lugar)
+Galáctico de bronce (3º lugar)</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>Top 8 de Liga de Honor reciben distinción Estrella</p>
+<p>Alias y palabras clave:</p>
+<p>incentivos Galaxia, premios Galácticos</p>
+<h2>Liga de Ejecución</h2>
+<p>Definición:</p>
+<p>No debe confundirse con las ligas de distribuidores. Es un programa del equipo de Demand Acceleration para evaluar la ejecución en el mercado de la estrategia comercial. Otorga puntos dentro del programa Galaxia y tiene distintas variables según el canal de ventas.</p>
+<p>Cálculo:</p>
+<p>(No aplica)</p>
+<p>Ejemplo:</p>
+<p>(No aplica)</p>
+<p>Alias y palabras clave:</p>
+<p>Demand Acceleration, ejecución comercial</p>
+
+</body>
+</html>
